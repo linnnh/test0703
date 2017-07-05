@@ -13,6 +13,9 @@
 		003BB96A1F09D75F0029E3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003BB9681F09D75F0029E3A4 /* Main.storyboard */; };
 		003BB96C1F09D75F0029E3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003BB96B1F09D75F0029E3A4 /* Assets.xcassets */; };
 		003BB96F1F09D75F0029E3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003BB96D1F09D75F0029E3A4 /* LaunchScreen.storyboard */; };
+		003BB9781F09DB6C0029E3A4 /* SimpleBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BB9771F09DB6C0029E3A4 /* SimpleBoxViewController.swift */; };
+		003FFA1D1F0B7CB90030502B /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 003FFA1B1F0B7CB90030502B /* smoke.scnp */; };
+		003FFA1E1F0B7CB90030502B /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 003FFA1C1F0B7CB90030502B /* smoke.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		003BB96B1F09D75F0029E3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003BB96E1F09D75F0029E3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003BB9701F09D75F0029E3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003BB9771F09DB6C0029E3A4 /* SimpleBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxViewController.swift; sourceTree = "<group>"; };
+		003FFA1B1F0B7CB90030502B /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		003FFA1C1F0B7CB90030502B /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		003BB9611F09D75F0029E3A4 /* Hello-AR */ = {
 			isa = PBXGroup;
 			children = (
+				003BB9761F09DB420029E3A4 /* SimpleBox */,
 				003BB9621F09D75F0029E3A4 /* AppDelegate.swift */,
 				003BB9641F09D75F0029E3A4 /* art.scnassets */,
 				003BB9661F09D75F0029E3A4 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				003BB9701F09D75F0029E3A4 /* Info.plist */,
 			);
 			path = "Hello-AR";
+			sourceTree = "<group>";
+		};
+		003BB9761F09DB420029E3A4 /* SimpleBox */ = {
+			isa = PBXGroup;
+			children = (
+				003BB9771F09DB6C0029E3A4 /* SimpleBoxViewController.swift */,
+				003FFA1B1F0B7CB90030502B /* smoke.scnp */,
+				003FFA1C1F0B7CB90030502B /* smoke.png */,
+			);
+			path = SimpleBox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				003BB9651F09D75F0029E3A4 /* art.scnassets in Resources */,
+				003FFA1E1F0B7CB90030502B /* smoke.png in Resources */,
 				003BB96F1F09D75F0029E3A4 /* LaunchScreen.storyboard in Resources */,
 				003BB96C1F09D75F0029E3A4 /* Assets.xcassets in Resources */,
+				003FFA1D1F0B7CB90030502B /* smoke.scnp in Resources */,
 				003BB96A1F09D75F0029E3A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003BB9671F09D75F0029E3A4 /* ViewController.swift in Sources */,
+				003BB9781F09DB6C0029E3A4 /* SimpleBoxViewController.swift in Sources */,
 				003BB9631F09D75F0029E3A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +336,7 @@
 				003BB9751F09D75F0029E3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
